@@ -1,0 +1,24 @@
+{
+  "name": "halo_test_exercise",
+  "version": "1.0.0",
+  "description": "Test exercise for Halo using webdriverIO and cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "keywords": [
+    "halo",
+    "webdriverio",
+    "cucumber"
+  ],
+  "author": "Adrian Aciar",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^9.16.2",
+    "@wdio/cucumber-framework": "^9.16.2",
+    "@wdio/local-runner": "^9.16.2",
+    "@wdio/selenium-standalone-service": "^8.15.0",
+    "@wdio/spec-reporter": "^9.16.2"
+  }
+}
